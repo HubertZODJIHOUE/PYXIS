@@ -17,44 +17,49 @@
 
     <div>
         <!-- Jumbotron -->
-        <div class=" banner" style="background-image: url(../images/banner.jpg); max-width: 100%;">
-            <div class="text-white  rgba-stylish-strong py-5 px-4">
-                <div class="py-5">
+        <div class=" col-lg-12 ; col-md-12 ; col-xs-12; col-sm-12"  style="background-image: url(../images/banner.jpg)">
+            <div class="text-white  ;row">
+                
         
-                    <!-- Content -->
+                    
                
-                    <div class="mb-4 pb-2 px-md-5 mx-md-5" style="background-color: #5A6A5D;width: 375;">
+                    <div class="col-md-3; col-md-offset-3; col-xs-1 ; col-lg-3; col-sm-3" 
+                    style="background-color: #5A6A5D; opacity: 0.5; position: relative;
+                    top:140 ; left :50; text-align: center  ;">
                         <h6> UN EVENEMENT  A ORGANISER ?</h6> 
-                        <h3>nos professionnels s'occupent de tout!</h3> 
+                        <h4>nos professionnels s'occupent de tout!</h4> 
 
 
                     </div>
 
 
-                    <div class="form" style="width: 400 ;background-color:white; position: relative ;left: 800; top: -100;">
-                        <form>
-                            <h3>Organser un évènement</h3>
+                    <div class="form" style="width: 300 ;background-color:white; position: relative ;left: 1000; top: -100;">
+                        <form action="../pyxishtml/action.php" method="" style="position: relative; margin-top: 20; margin-bottom: 12; margin-left: 12; margin-right: 12;">
+                            <h4 style="color:#5A6A5D ; text-align: center;">Organser un évènement</h4>
                             <div class="form-group">
-                                <label for="exampleInputEmail1">Adresse email</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                                    placeholder="Enter email">
+                                <label for="NOM & prenom">nom & prenom</label>
+                                <input type="text" class="form-control" id="name " 
+                                    placeholder="nom et prenom" name = "nomprenom">
                     
                             </div>
 
                             <div class="form-group">
-                                <label for="exampleInputPassword1">Nom & Prénom </label>
-                                <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                <label for="email">email </label>
+                                <input type="email" class="form-control" id="email" placeholder="email" name ="email">
                             </div>
-                            
 
-                            
-                            
-                    
-                            <button type="submit" class="btn btn-default" style="position:relative; left: 150;">Organiser</button>
+                            < <div class="form-group">
+                                <label for="comment">Message</label>
+                                <textarea class="form-control" rows="5" id="comment" placeholder="Message"></textarea><br><br>
+                            </div> 
+                                            
+                            <div  style="position: relative ; color: #5A6A5D; ">
+                                 <button type="submit" class="btn btn-default" name ="Organiser" style="position:relative; top: -30;  background-color:#5A6A5D ; width: 280; height: 40;"> Organiser </button><br>
+                            </div>
                         </form>
                     
                     </div>
-                </div>
+                
              </div>
         </div>
         <!-- Jumbotron -->
@@ -74,13 +79,24 @@
                 <div class="caption" style="position: relative; width: 250; background-color: #DBE7DD; height: 400;">
                     ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua.  <br> <br>
+                    <div style="width: 200; margin: 30 top 50; position: relative;margin-left: 30; top: 20; ">
+                        <table style="border: solid ;width: 200;">
+                            <tr style="background-color: #5A6A5D;">
+                                <td> lorem import</td>
+                            </tr>
+                            <tr style="background-color:white;">
+                                <td>lorem inmport</td>
+                            </tr>
+                        </table>
+                    </div>
                 </div>
+               
             </a>
         </div>
     </div>
     <div class="col-md-3" style="position: relative ;top: 70;" >
         <div class="thumbnail">
-            <img src="../images/icons/calendar.png" alt="">
+            <img src="../images/icons/calendar.png" alt="" style="height: 50; width: 50;">
            
                 <div class="caption"  style="position: relative; width: 250;  height: 400;">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -92,7 +108,7 @@
     </div>
     <div class="col-md-3" style="position: relative ;top: 70;" >
         <div class="thumbnail">
-            <img src="../images/icons/balloon.png" alt="">
+            <img src="../images/icons/balloon.png" alt=""style="height: 50; width: 50">
            
                 <div class="caption" style="position: relative; width: 250;  height: 400;" >
                     ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -105,7 +121,7 @@
     <div class="col-md-3" style="position: relative ;top: 70;">
         
             <div class="thumbnail">
-                <img src="../images/icons/karaoke.png" alt="" style="height: 90; width: 90; height: 70;">
+                <img src="../images/icons/karaoke.png" alt="" style="height: 50; width: 50">
             
     
                         <div class="caption" style="position: relative; width: 250;  height: 400;">
@@ -126,8 +142,16 @@
 
 <!--------------------------------------------------slider----------------------------------->
 
-<div style="height: 100;">
-    <img src="../images/slider/slider-1.jpg" alt=""style="height: 120; width: 120;"><img src="../images/slider/slider-2.jpg" alt=""style="height: 120; width: 120;"><img src="../images/slider/slider-3.jpg" alt=""style="height: 120; width: 120;"><img src="../images/slider/slider-4.jpeg" alt=""style="height: 120; width: 120;"><img src="../images/slider/slider-5.jpeg" alt=""style="height: 120; width: 120;"><img src="../images/slider/slider-6.jpg" alt=""style="height: 120; width: 120;"><img src="../images/slider/slider-7.jpg" alt=""style="height: 120; width: 120;"><img src="../images/slider/slider-8.jpeg" alt=""style="height: 120; width: 120;">
+<div >
+    <img src="../images/slider/slider-1.jpg" alt=""style="height: 185; width: 185;">
+    <img src="../images/slider/slider-2.jpg" alt=""style="height: 185;width:185;">
+    
+    <img src="../images/slider/slider-3.jpg" alt=""style="height: 185;width:185;">
+    <img src="../images/slider/slider-4.jpeg" alt=""style="height: 185;width:185;">
+    <img src="../images/slider/slider-5.jpeg" alt=""style="height: 185;width:185;">
+    <img src="../images/slider/slider-6.jpg" alt=""style="height: 185;width:185;">
+    <img src="../images/slider/slider-7.jpg" alt=""style="height: 185;width:185;">
+    <img src="../images/slider/slider-8.jpeg" alt=""style="height: 185;width:185;">
 </div>
 
 <!-------------------------------------------------------------------------------------------->
@@ -149,9 +173,21 @@
         <div class="thumbnail">
 
 
-            <div class="caption" style="position: relative; width:300 ; background-color: #DBE7DD; height: 400;">
-                ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. <br> <br>
+            <div class="caption" style="position: relative; width:300 ;border: solid;">
+                <h4>lorem</h4>
+                <h3><b>nunc</b></h3>
+                <ul>
+                    <li>un cas precis </li>
+                    <li>un cas precis </li>
+                    <li>un cas precis </li>
+                    <li>un cas precis </li>
+                    <li>un cas precis </li>
+                </ul><br> <br>
+                <div style="position: relative ; color: #5A6A5D; ">
+                    <button type="submit" class="btn btn-default" name="SED"
+                        style="position:relative; top: -30;  background-color:#5A6A5D ; width: 280; height: 40; margin-left: 10"> SED
+                    </button><br>
+                </div>
             </div>
             </a>
         </div>
@@ -161,9 +197,24 @@
         <div class="thumbnail">
     
     
-            <div class="caption" style="position: relative; width: 300; background-color: #DBE7DD; height: 400;">
-                ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. <br> <br>
+            <div class="caption" style="position: relative; width: 300; background-color: #DBE7DD; top: -20; ">
+                <h4>lorem</h4>
+                <h3><b>nunc</b></h3>
+            <ul>
+                <li>un cas precis </li>
+                <li>un cas precis </li>
+                <li>un cas precis </li>
+                <li>un cas precis </li>
+                <li>un cas precis </li>
+                <li>un cas precis </li>
+                <li>un cas precis </li>
+                <li>un cas precis </li>
+            </ul><br> <br>
+            <div style="position: relative ; color: #5A6A5D; ">
+                <button type="submit" class="btn btn-default" name="SED"
+                    style="position:relative; top: -30;  background-color:#5A6A5D ; width: 280; height: 40;margin-left: 10"> SED
+                </button><br>
+            </div>
             </div>
             </a>
         </div>
@@ -174,9 +225,21 @@
         <div class="thumbnail">
     
     
-            <div class="caption" style="position: relative; width: 300; background-color: #DBE7DD; height: 400;">
-                ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. <br> <br>
+            <div class="caption" style="position: relative; width: 300; border: solid; ">
+                <h4>lorem</h4>
+                <h3><b>nunc</b></h3>
+            <ul>
+                <li>un cas precis </li>
+                <li>un cas precis </li>
+                <li>un cas precis </li>
+                <li>un cas precis </li>
+                <li>un cas precis </li>
+            </ul><br><br>
+            <div style="position: relative ; color: #5A6A5D; ">
+                <button type="submit" class="btn btn-default" name="SED"
+                    style="position:relative; top: -30;  background-color:#5A6A5D ; width: 280; height: 40; margin-left: 10;"> SED
+                </button><br>
+            </div>
             </div>
             </a>
         </div>
@@ -188,21 +251,36 @@
 <!---------------------------------------------------------------------------------------------->
 
 <!--footer-->
-<div class="form-group">
-    <label for="exampleInputPassword1" cols="40">Message</label>
-    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="textarea">
+<div style="background-color: #DBE7DD ; height: 100; border:solid;">
+    <div style="width: 900;position: relative; top: 30; ">
+            <div class="form-group"  style="float: left; position: relative;top: -15;" >
+                <img src="../images/icons/email.png" alt="" style="height: 65; width: 60;">
+            </div>
+
+            <div>
+                <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Adresse mail" style="width: 500;">
+            </div>
+
+        
+            <div style="position: relative ; color: #5A6A5D; float: right; margin: 0; ">
+                <button type="submit" class="btn btn-default" style="position:relative; top: -30; text-align: center; background-color:#eed7c5 ; width: 150; height: 40;">
+                Souscrire </button><br>
+            </div>
+    </div>
 </div>
+
 
 
 <!---------------------------------------------------------------------------------------------->
 
 
-<div class="row" style="position: relative   ;">
+<div class="row" style="position: relative  ;height: auto; top: 50; margin-left: 140 ;margin-right: 140; color:#5A6A5D;" ">
     <div class="col-md-3" style="position: relative; ">
+        <h4>Compagnie</h4>
         <div class="thumbnail">
 
 
-            <div class="caption" style="position: relative; width:250 ; background-color: #DBE7DD; height: 400;">
+            <div class="caption" style="position: relative; width:250 ;  height: 400;">
                 ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. <br> <br>
             </div>
@@ -211,10 +289,11 @@
     </div>
 
     <div class="col-md-3" style="position: relative; ">
+        <h4>Compagnie</h4>
         <div class="thumbnail">
 
 
-            <div class="caption" style="position: relative; width: 250; background-color: #DBE7DD; height: 400;">
+            <div class="caption" style="position: relative; width: 250;  height: 400;">
                 ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. <br> <br>
             </div>
@@ -224,10 +303,11 @@
 
 
     <div class="col-md-3" style="position: relative;">
+        <h4>Compagnie</h4>
         <div class="thumbnail">
 
 
-            <div class="caption" style="position: relative; width: 250; background-color: #DBE7DD; height: 400;">
+            <div class="caption" style="position: relative; width: 250; height: 400;">
                 ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. <br> <br>
             </div>
@@ -235,13 +315,12 @@
         </div>
     </div>
 
-
-
     <div class="col-md-3" style="position: relative; ">
+         <h4>Compagnie</h4>
         <div class="thumbnail">
     
     
-            <div class="caption" style="position: relative; width:250 ; background-color: #DBE7DD; height: 400;">
+            <div class="caption" style="position: relative; width:250 ;  height: 400;">
                 ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. <br> <br>
             </div>
